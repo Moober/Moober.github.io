@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Sketch插件 Rename It 快速批量重命名你的图层]]></title>
+    <url>%2F2017%2F12%2F14%2Fplugins01%2F</url>
+    <content type="text"><![CDATA[快速批量重命名你的图层 下载地址 本地下载 GitHub下载 安装 下载并解压 Rename It.zip 双击 Rename It.sketchplugin 完成安装 使用重命名选中图层 可执行 Plugins &gt; Rename It &gt; Rename Selected Layers 或使用快捷键 command ⌘ + control ⌃ + R 多图层 同时重命名多个图层 序列 以升序或降序顺序重命名图层 键入 %n 按照图层名中含有的编号升序排列，同样也可使用 ％N 来降序排列，关键字 ％A 则按照字母顺序排序，另：%nn 将输出 01、02、03 等两位数排列，％a 以小写字母序列 基于原始名称再命名 键入 * 来保持原始名称再添加所需关键字 添加宽度和高度 键入 %w 或 %h 添加图层的宽度或高度 注意：* 和 % 可用反斜杠 \ 进行转义 重命名画板 可执行 Plugins &gt; Rename It &gt; Rename Selected Artboard 或使用快捷键 command ⌘ + control ⌃ + alt ⌥ + R 重命名选中画板的工作方式与重命名选中图层相同，不需要选择画板，工具将自动找到所选图层的画板 在所选图层中查找和替换 可执行 Plugins &gt; Rename It &gt; Find &amp; Replace in Selected Layers 或使用快捷键 command ⌘ + control ⌃ + alt ⌥ + R 从所选图层替换任何单词或字符 基本信息收录版本 3.5.0更新时间 2017-12-14]]></content>
+      <categories>
+        <category>插件</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[使用 Sketch 的 Styled Text 功能 搭建字体样式库]]></title>
-    <url>%2F2017%2F12%2F12%2FStyled%20Text%20%2F</url>
+    <url>%2F2017%2F12%2F12%2FSketch01%20%2F</url>
     <content type="text"><![CDATA[平时在做设计时，随着项目的开展，会产生很多的字体样式，虽让想要都记住，奈何有些多，导致最后难以管理。其实 Sketch 的开发者们早就料到你们这帮设计师会遇到这个问题，并给出 Styled Text 作为解决的机制。本篇教程将手把手带大家制作一个简单的字体样式库. 最终效果展示 第一步，确定字体库的服务对象首先需要明确你制作字体库的服务对象，比如WEB端、IOS端、安卓端、虽然都是移动端，但他们都是有各自的字体规范的； 以开发一个 IOS APP 为例： 涉及到 导航栏、标题、内文、注释、提示性文字的字号和字重以及颜色等的设计；例： 第二步，在Sketch制作字体样式 在sketch中使用Grid Tool 将第一步确定好的字体数罗列出来，并修改字体的 字体/字重/字号， 第三步 对字体样式进行命名修改字体图层的名称，命名方式：用途/颜色/字重 - 对齐； 注：「/」在 Sketch 的 Styled Text 中可以进行自动分组。 01.将字体图层修改成「字体用途名」 案例中用的命名解释：「H1=Header1=标题1 」「B1=Body1=内容1 」「N1=Note=标注/注释」 这里使用英文，我是怕后续出现不可描述的问题，毕竟Sketch是一款英文的软件.当然你可以用中文； 02.进一步进行命名处理 按住“Command”键移动鼠标选择全部内容； 使用插件：「Rename It」， 「安装与使用点我」，执行Plugins &gt; Rename It &gt; Rename Selected Layers 或使用快捷键 Command + Control + R ，批量修改命名，具体看GIF图； 按照GIF图中操作，完成第一组命名格式中的「色值」、「字重」和「对齐」 用途/颜色/字重 - 对齐 字重：Semibold/Regular 对齐：Center/Left/Right 第四步 对字体的对齐、颜色和字重进行设置01.进行对齐修改并修改命名 将文字编组，使用Grid Tool 复制3组； 按住“Command”键选择组内的内容，看GIF动画； 对字体的对齐的进行更改； 使用插件：「Rename It」， 「安装与使用点我」，执行 Plugins &gt; Rename It &gt; Find &amp; Replace in Selected Layers 或使用快捷键 Command + Control + Option + R，更改命名中的对齐，具体看GIF图； 02.进行字重修改并修改命名（如你不需要可以不做） 将3个组进行编组，使用Grid Tool 或者 用 “⌥” 复制1组； 按住“Command”键选择组内的内容，看GIF动画； 对字体的字重的进行更改； 使用插件：「Rename It」， 「安装与使用点我」，执行 Plugins &gt; Rename It &gt; Find &amp; Replace in Selected Layers 或使用快捷键 Command + Control + Option + R，更改命名中的字重，具体看GIF图； 03.进行颜色修改并修改命名 选择画板，使用Grid Tool复制3组； 按住“Command”键选择组内的内容，看GIF动画； 进行常用颜色的更改；注意：这里我只是做了1种颜色的演示，其他颜色更改方法一致 使用插件：「Rename It」， 「安装与使用点我」，执行 Plugins &gt; Rename It &gt; Find &amp; Replace in Selected Layers 或使用快捷键 Command + Control + Option + R，更改命名中的颜色，具体看GIF图； 第五步 录入字体样式01.清空字体样式库 按住“Command”键单击其中一个文字； 点击右边的「No Twxt Style」选择「Organize Text Styles」 按住“Option”键全选，点击 “-” 进行删除，点击「Done」确认； 02.录入字体样式 按住“Command”键选择所有内容，看GIF动画； 使用插件：「Styles Generator」， 「安装与使用点我」，执行 Plugins &gt; Styles Generator &gt; Generate Shared Styles 或使用快捷键 Control + Command + S，生成共享样式，具体看GIF图； 至此大功告成；]]></content>
       <categories>
         <category>Sketch教程</category>
